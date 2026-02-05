@@ -1,0 +1,84 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# =========================
+# Virtual Environment
+# =========================
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# =========================
+# Data files (dataset lớn)
+# =========================
+data/
+dataset/
+datasets/
+*.csv
+*.tsv
+*.json
+*.pickle
+*.pkl
+
+# =========================
+# Trained models & vectors
+# =========================
+models/
+checkpoints/
+*.joblib
+*.h5
+
+# =========================
+# Experiment & logs
+# =========================
+logs/
+*.log
+mlruns/
+
+# =========================
+# Streamlit
+# =========================
+.streamlit/secrets.toml
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+
+# =========================
+# OS & Editor
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# =========================
+# Coverage / test
+# =========================
+.coverage
+htmlcov/
+.pytest_cache/
+
+# =========================
+# Build & distribution
+# =========================
+build/
+dist/
+*.egg-info/
