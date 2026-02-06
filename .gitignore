@@ -24,22 +24,29 @@ ENV/
 # =========================
 # Data files (dataset lớn)
 # =========================
-data/
+data/raw/*.csv
+data/processed/*.csv
 dataset/
 datasets/
-*.csv
 *.tsv
 *.json
-*.pickle
-*.pkl
+
+# Giữ lại cấu trúc thư mục
+!data/raw/.gitkeep
+!data/processed/.gitkeep
 
 # =========================
 # Trained models & vectors
 # =========================
-models/
+models/*.pkl
+models/*.joblib
+models/*.h5
+models/distilbert/
+models/bert_temp/
 checkpoints/
-*.joblib
-*.h5
+
+# Giữ lại cấu trúc thư mục models
+!models/.gitkeep
 
 # =========================
 # Experiment & logs
@@ -82,3 +89,18 @@ htmlcov/
 build/
 dist/
 *.egg-info/
+
+# =========================
+# Generated files (biểu đồ, kết quả)
+# =========================
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.svg
+tfidf_weights.csv
+results/
+
+# Giữ lại README images nếu có
+!docs/*.png
+!images/*.png

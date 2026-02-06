@@ -1,0 +1,20 @@
+# Requirements cho BERT model
+torch>=1.9.0
+transformers>=4.20.0
+datasets>=2.0.0
+accelerate>=0.20.0
+
+# Thư viện cơ bản (giữ nguyên từ requirements.txt cũ)
+pandas>=1.3.0
+numpy>=1.21.0
+scikit-learn>=1.0.0
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# Streamlit app với BERT
+streamlit>=1.20.0
+plotly>=5.0.0
+
+# Utilities
+joblib>=1.1.0
+tqdm>=4.62.0
